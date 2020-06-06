@@ -1,9 +1,9 @@
-# THETA Plug-in: WebAPI Capture Plugin
+# THETA Plug-in: WebAPI Sample Plugin
 
 Version: 2.1.0
 
 ## Contents
-
+* [Difference between WebAPI Sample and THETA Plugin SDK](#diff)
 * [Terms of Service](#terms)
 * [Files included in the archive](#files)
 * [Technical requirements for development](#requirements)
@@ -11,6 +11,17 @@ Version: 2.1.0
 * [Getting Started](#started)
 * [Where to find the latest information](#information)
 * [Trademark Information](#trademark)
+
+<a name="diff"></a>
+## Difference between WebAPI Sample and THETA Plugin SDK
+
+The WebAPI Sample (this repo) is forked from THETA Plugin SDK (original repo). Both WebAPI Sample (this repo) and THETA Plugin SDK (original repo) are sample codes of plugin for RICOH THETA V/Z1.
+The original THETA Plugin SDK only supports still capturing.
+This WebAPI Sample can 
+* control Wi-Fi button and
+* control Mode button.
+d
+You can record video and still, and control Wi-Fi mode(OFF/AP/CL) by this WebAPI Sample.
 
 <a name="terms"></a>
 ## Terms of Service
