@@ -95,6 +95,9 @@ public class MainActivity extends PluginActivity {
 
         Log.d("debug","onCreate()");
 
+        // Set enable to close by pluginlibrary, If you set false, please call close() after finishing your end processing.
+        setAutoClose(false);
+
         // Set a callback when a button operation event is acquired.
         setKeyCallback(new KeyCallback() {
 
@@ -181,6 +184,10 @@ public class MainActivity extends PluginActivity {
         mWLANStatus = WlanStatus.OFF;
 
         new ModeChangeTask("image",mModeChangeTaskCallback).execute();
+
+        if (isApConnected()) {
+
+        }
     }
 
     @Override

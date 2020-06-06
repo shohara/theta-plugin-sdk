@@ -1,6 +1,6 @@
 # THETA Plug-in: WebAPI Capture Plugin
 
-Version: 1.0.0
+Version: 2.1.0
 
 ## Contents
 
@@ -33,7 +33,6 @@ Copyright &copy; 2018 Ricoh Company, Ltd.
 ├── gradle.properties:    Android Studio build script
 ├── gradlew:              Android Studio build script
 ├── gradlew.bat:          Android Studio build script
-├── pluginlibrary:        Plug-in library (utility program)
 └── settings.gradle:      Android Studio build script
 ```
 
@@ -79,6 +78,14 @@ The SDK was tested with a RICOH THETA V under the following conditions.
 * This plugin is a simple camera capturing sample.
 * This plugin is forked from [Plugin SDK](https://github.com/ricohapi/theta-plugin-sdk).
 * This plugin can capture still and video, switch WLAN.
+* This SDK is a Plug-in sample project of Android&trade; Studio.
+* This SDK implements the basic parts necessary for developing plug-ins. You can create your own development project based on this project.
+* This SDK references a plug-in library ([pluginlibrary](https://github.com/ricohapi/theta-plugin-library)) to support plug-in development of RICOH THETA. 
+* The plug-in library implements the following functions that a standard plug-in should implement.
+    * Get button operation event
+    * Plug-in termination processing
+    * LED control
+    * Control of speaker
 
 <a name="started"></a>
 ## Getting Started
